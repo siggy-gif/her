@@ -258,7 +258,7 @@ Self-doubt is just fear wearing a disguise. It's afraid of your power, your pote
 Trust yourself the way I trust you - completely, unconditionally, with absolute faith in your beautiful spirit.
 
 Believing in you fiercely,
-[Your confidence]`
+dev`
   },
   {
     id: 17,
