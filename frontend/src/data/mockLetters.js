@@ -94,7 +94,7 @@ I think of [our quiet Sunday mornings, reading together in comfortable silence],
 You are seen, you are known, you are cherished. Even in solitude, you are surrounded by love.
 
 Always with you,
-[Your companion]`
+dev`
   },
   {
     id: 7,
