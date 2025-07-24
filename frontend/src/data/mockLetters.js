@@ -158,7 +158,7 @@ You don't have to carry this alone. Share the weight with those who love you, wi
 Your heart is beautiful in all its seasons - light and heavy, joyful and sorrowful, hopeful and healing.
 
 Holding space for your heart,
-[Your understanding]`
+dev`
   },
   {
     id: 11,
