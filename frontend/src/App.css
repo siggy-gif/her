@@ -1,34 +1,161 @@
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+/* Import romantic fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Great+Vibes&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+body {
+  font-family: 'Crimson Text', serif;
+  background: linear-gradient(135deg, #fdfcfb 0%, #f7f4f1 25%, #f5f2ee 50%, #f2ede8 75%, #ede6dd 100%);
+  min-height: 100vh;
+  color: #4a4a4a;
+  overflow-x: hidden;
 }
 
-.App-header {
-    background-color: #0f0f10;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+.App {
+  min-height: 100vh;
+  position: relative;
 }
 
-.App-link {
-    color: #61dafb;
+.romantic-app {
+  min-height: 100vh;
+  position: relative;
+  padding: 20px;
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(244, 235, 229, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(248, 240, 235, 0.3) 0%, transparent 50%),
+    linear-gradient(135deg, #fdfcfb 0%, #f7f4f1 25%, #f5f2ee 50%, #f2ede8 75%, #ede6dd 100%);
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+/* Background styling */
+.background-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.05;
+  pointer-events: none;
+}
+
+.background-lily {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: sepia(30%) saturate(0.5) brightness(1.1);
+}
+
+/* Navigation */
+.romantic-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  padding: 20px 0;
+}
+
+.nav-btn {
+  background: linear-gradient(135deg, #fff8f5 0%, #f5f0eb 100%);
+  border: 2px solid #e8d5c4;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #8b7765;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(139, 119, 101, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(218, 182, 153, 0.3), transparent);
+  transition: left 0.5s ease;
+}
+
+.nav-btn:hover::before {
+  left: 100%;
+}
+
+.nav-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(139, 119, 101, 0.2);
+  border-color: #dab699;
+  color: #6b5b4f;
+}
+
+.nav-btn.active {
+  background: linear-gradient(135deg, #f4ebe5 0%, #e8d5c4 100%);
+  border-color: #dab699;
+  color: #5d4e41;
+  box-shadow: 0 6px 20px rgba(139, 119, 101, 0.25);
+}
+
+/* Main content */
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .romantic-app {
+    padding: 15px;
+  }
+  
+  .nav-btn {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+  
+  .main-content {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .romantic-nav {
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .nav-btn {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
