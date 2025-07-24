@@ -30,7 +30,7 @@ When your mind spirals, anchor yourself in this truth: you are safe, you are lov
 Close your eyes and imagine my arms around you, holding you steady until the storm passes.
 
 With all my love,
-[Your anchor]`
+dev`
   },
   {
     id: 3,
