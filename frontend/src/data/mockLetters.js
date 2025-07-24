@@ -126,7 +126,7 @@ Count not sheep, but moments of joy. Count not hours, but reasons to be grateful
 You are safe, you are loved, and tomorrow will greet you with new mercies and fresh hope.
 
 Sweet dreams, my love,
-[Your lullaby]`
+dev`
   },
   {
     id: 9,
