@@ -110,7 +110,7 @@ The world needs your kind of caring, your dedication, your beautiful way of show
 I'm so proud of you, not for being perfect, but for being real, for trying, for caring so deeply.
 
 Believing in you always,
-[Your biggest fan]`
+dev`
   },
   {
     id: 8,
