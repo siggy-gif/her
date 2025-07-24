@@ -274,7 +274,7 @@ Let this rain wash away anything you no longer need - old worries, past hurts, l
 Dance in it, rest with it, or simply listen to its gentle song. Rain is a gift, and so are you.
 
 Singing in the rain with you,
-[Your sunshine]`
+dev`
   },
   {
     id: 18,
