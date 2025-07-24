@@ -324,7 +324,7 @@ Just because you deserve to know how wonderful you are, how grateful I am for yo
 Just because I love you, and that will never change.
 
 Forever and always, just because,
-[Your eternal love]`
+dev`
   }
 ];
 
