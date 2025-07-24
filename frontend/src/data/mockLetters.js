@@ -290,7 +290,7 @@ Breathe deeply. Feel your feet on the ground. Notice five things you can see, fo
 You are the calm in every storm, the peace in every chaos, the stillness in every rush.
 
 In perfect peace,
-[Your calm]`
+dev`
   },
   {
     id: 19,
