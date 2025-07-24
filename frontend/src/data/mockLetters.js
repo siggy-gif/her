@@ -62,7 +62,7 @@ Here's a little secret: every time you smile, an angel gets their wings. And eve
 So please, my love, find a reason to smile today. Look in the mirror and see what I see - absolute radiance.
 
 Sending you all my smiles,
-[Your sunshine]`
+dev`
   },
   {
     id: 5,
