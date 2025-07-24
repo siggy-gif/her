@@ -14,7 +14,7 @@ You are stronger than you know, more beautiful than you see, and more loved than
 I love you through every emotion, every season of your heart.
 
 Forever yours,
-[Your love]`
+dev`
   },
   {
     id: 2,
