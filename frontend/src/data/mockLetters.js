@@ -194,7 +194,7 @@ Here's to another year of growing in love, of discovering new depths to explore,
 I choose you today, tomorrow, and always.
 
 Happy anniversary, my heart,
-[Your devoted partner]`
+dev`
   },
   {
     id: 13,
