@@ -308,7 +308,7 @@ You are someone's favorite person, someone's answered prayer, someone's greatest
 Feel it, believe it, receive it.
 
 Loving you infinitely,
-[Your devoted heart]`
+dev`
   },
   {
     id: 20,
