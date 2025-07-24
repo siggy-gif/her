@@ -176,7 +176,7 @@ You deserve all the cake, all the wishes, all the celebration. You deserve to fe
 Happy birthday, my love. Thank you for being born.
 
 Celebrating you always,
-[Your birthday wish]`
+dev`
   },
   {
     id: 12,
