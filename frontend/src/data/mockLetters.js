@@ -210,7 +210,7 @@ You don't have to respond to every noise, engage with every demand, or carry eve
 In a loud world, your gentleness is a gift. Your ability to find calm is a superpower.
 
 Whispering love to you,
-[Your quiet strength]`
+dev`
   },
   {
     id: 14,
