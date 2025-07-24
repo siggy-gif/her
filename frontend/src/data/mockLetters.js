@@ -46,7 +46,7 @@ Though miles may separate us, love transcends space and time. I'm with you in th
 Until we're together again, know that you are my first thought in the morning and my last at night.
 
 Missing you endlessly,
-[Your forever]`
+dev`
   },
   {
     id: 4,
