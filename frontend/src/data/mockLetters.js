@@ -226,7 +226,7 @@ Close your eyes and feel me there - in your heartbeat, in your breath, in the lo
 You are my home, no matter where we are. And home is always close.
 
 Forever near to you,
-[Your closeness]`
+dev`
   },
   {
     id: 15,
