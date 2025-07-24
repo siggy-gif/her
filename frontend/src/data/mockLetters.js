@@ -142,7 +142,7 @@ You deserve these pockets of peace, these islands of calm in the rush of life. Y
 Enjoy this gentle time, my love. Let it restore your soul.
 
 In peaceful love,
-[Your quiet companion]`
+dev`
   },
   {
     id: 10,
