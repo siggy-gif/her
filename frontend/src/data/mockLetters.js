@@ -78,7 +78,7 @@ Remember [when we got lost on our way to dinner and discovered that little books
 Trust the process, trust yourself, and trust that everything will unfold as it should.
 
 Thinking of you (but not overthinking),
-[Your peace]`
+dev`
   },
   {
     id: 6,
