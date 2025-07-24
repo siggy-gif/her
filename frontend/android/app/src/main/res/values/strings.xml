@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Open When</string>
-    <string name="title_activity_main">Open When</string>
+    <string name="title_activity_main">Open When - A Box of Us</string>
     <string name="package_name">com.openwhen.boxofus</string>
     <string name="custom_url_scheme">com.openwhen.boxofus</string>
 </resources>
