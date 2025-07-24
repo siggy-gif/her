@@ -242,7 +242,7 @@ Breathe in love, breathe out worry. Feel the gentleness you deserve, the tendern
 This hug is soft but strong, gentle but secure, brief but eternal. Receive it fully, my dear one.
 
 Hugging you with all my love,
-[Your embrace]`
+dev`
   },
   {
     id: 16,
